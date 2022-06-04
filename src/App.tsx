@@ -11,7 +11,7 @@
 import React, { Fragment } from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { QueryClient, QueryClientProvider } from 'react-query'
-import { Main } from 'navigation/Main'
+import { Main } from '~navigation/Main'
 
 const queryClient = new QueryClient()
 
